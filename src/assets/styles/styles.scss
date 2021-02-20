@@ -1,0 +1,52 @@
+html, body, #app {
+  height: 100%;
+}
+
+body {
+  background-color: #373745;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.filter {
+  margin-bottom: 15px;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  font-size: 14px;
+
+  .input-field {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+  }
+
+  label {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  input, select, button {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 15px;
+  }
+}
+
+.container {
+  border: solid #14141D 8px;
+  display: flex;
+  min-width: 1320px;
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+}

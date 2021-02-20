@@ -1,0 +1,96 @@
+
+.level-list-item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 193px;
+  position: relative;
+  color: $blue;
+
+  &--active {
+    color: $gold;
+  }
+
+  &--past-lvl {
+    color: $gold;
+    opacity: .25;
+  }
+
+  &__current-lvl {
+    font-size: 11px;
+    color: $gold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    margin: auto;
+    * {
+      margin: 0 2px;
+    }
+  }
+  
+  &__rating--wide {
+    & svg:last-of-type, svg:first-of-type {
+      transform: translateY(4px);
+    }  
+  }
+
+  &__container {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    padding: 0 8px;
+  }
+
+  &__baground {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &__content {
+    position: relative;
+    margin: auto;
+    color: #AFAFB5;
+    .level-list-item--past-lvl &,
+    .level-list-item--active & {
+      color: #fff;
+    }
+  }
+
+  &__title {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  &__text {
+    border-bottom: 1px solid $blue;
+    font-size: 10px;
+    padding: 8px 0;
+    line-height: 0.7;
+    .level-list-item--past-lvl &,
+    .level-list-item--active & {
+      border-bottom: 1px solid $gold;
+    }
+    .diamond {
+      transform: translateY(2px);
+    }
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}

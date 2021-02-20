@@ -1,0 +1,76 @@
+{
+  "data": [
+    { 
+      "rating": 1,
+      "title": "Level 1",
+      "balance": 0,
+      "bonus": 0,
+      "cashback": 5,
+      "points": 0
+    },
+    {
+      "rating": 2,
+      "title": "Level 2",
+      "balance": 3,
+      "bonus": 500,
+      "cashback": 5,
+      "points": 50
+    },
+    {
+      "rating": 3,
+      "title": "Level 3",
+      "balance": 4,
+      "bonus": 1000,
+      "cashback": 6,
+      "points": 1000
+    },
+    {
+      "rating": 4,
+      "title": "Level 4",
+      "balance": 5,
+      "bonus": 2500,
+      "cashback": 7,
+      "points": 5000
+    },
+    {
+      "rating": 5,
+      "title": "Level 5",
+      "balance": 5,
+      "bonus": 5000,
+      "cashback": 10,
+      "points": 25000
+    },
+    {
+      "rating": 6,
+      "title": "Level 6",
+      "balance": 5,
+      "bonus": 10000,
+      "cashback": 10,
+      "points": 100000
+    },
+    {
+      "rating": 7,
+      "title": "Level 7",
+      "balance": 10,
+      "bonus": 20000,
+      "cashback": 10,
+      "points": 200000
+    },
+    {
+      "rating": 8,
+      "title": "Level 8",
+      "balance": 10,
+      "bonus": 40000,
+      "cashback": 10,
+      "points": 400000
+    },
+    {
+      "rating": 9,
+      "title": "Level 9",
+      "balance": 10,
+      "bonus": 80000,
+      "cashback": 10,
+      "points": 800000
+    }
+  ]
+}
